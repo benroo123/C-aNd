@@ -11,12 +11,13 @@
 def twoSum(nums, target):
     result = [0, 0]
     for i in range(len(nums) - 1):
-        for j in range(i, len(nums)):
+        for j in range(i + 1, len(nums)):
             print(i, j)
             if nums[i] + nums[j] == target:
                 result[0], result[-1] = i, j
+                break
 
     return result
 
 
-print(twoSum([-5, 11, 15, -1], -6))
+print(twoSum([3, 3], 6))
