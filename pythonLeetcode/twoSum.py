@@ -8,7 +8,6 @@
 #         pass
 
 class TwoSum:
-
     def twoSum(self, nums, target):
         result = [0, 0]
         for i in range(len(nums) - 1):
