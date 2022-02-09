@@ -1,7 +1,7 @@
 <head> 
-  <title> Algorithm and Dataset </title>
+  <h1> Algorithm and Dataset </h1>
 </head>
 
-<h1> Python Leetcode </h1>
-<h1> C algorithm & data Analyst </h1>
-<h1> SQL Leetcode</h1>
+<h3> Python Leetcode </h3>
+<h3> C algorithm & data Analyst </h3>
+<h3> SQL Leetcode</h3>
