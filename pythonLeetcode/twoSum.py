@@ -20,5 +20,6 @@ class TwoSum:
         return result
 
 
-t = TwoSum()
-print(t.twoSum([3, 3], 6))
+if __name__ == "__main__"":
+    t = TwoSum()
+    print(t.twoSum([3, 3], 6))
