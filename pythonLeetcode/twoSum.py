@@ -7,17 +7,19 @@
 #     def twoSum(self, nums: List[int], target: int) -> List[int]:
 #         pass
 
+class TwoSum:
 
-def twoSum(nums, target):
-    result = [0, 0]
-    for i in range(len(nums) - 1):
-        for j in range(i + 1, len(nums)):
-            print(i, j)
-            if nums[i] + nums[j] == target:
-                result[0], result[-1] = i, j
-                break
+    def twoSum(self, nums, target):
+        result = [0, 0]
+        for i in range(len(nums) - 1):
+            for j in range(i + 1, len(nums)):
+                print(i, j)
+                if nums[i] + nums[j] == target:
+                    result[0], result[-1] = i, j
+                    break
 
-    return result
+        return result
 
 
-print(twoSum([3, 3], 6))
+t = TwoSum()
+print(t.twoSum([3, 3], 6))
