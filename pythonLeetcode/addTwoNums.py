@@ -29,16 +29,16 @@ class AddTwoNums:
         cur = ListNode()
         if listA.next is None and listB is None and car == 0:
             cur.next = None
-            return
+            return None
         if listA.next is None and listB is None and car == 1:
-            cur.next = ListNode(1)
-            return
+            return ListNode(1)
 
         add = listA.val + listB.val + car
 
         if add >= 10:
             car = 1
             add -= 10
+        # set the value of the current node
         cur.val = add
 
         print(cur.val, cur.next)

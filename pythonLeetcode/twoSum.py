@@ -12,14 +12,33 @@ class TwoSum:
         result = [0, 0]
         for i in range(len(nums) - 1):
             for j in range(i + 1, len(nums)):
-                print(i, j)
+                # print(i, j)
                 if nums[i] + nums[j] == target:
                     result[0], result[-1] = i, j
                     break
 
         return result
 
+    def advTwoSum(self, nums, target):
+        # length = len(nums) // 2 + 1
+        i = 0
+        while i <= len(nums) - 1:
+            j = i + 1
+            k = len(nums) - 1
+            while j <= len(nums) - 1:
+                print(i, j, k)
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+                if nums[i] + nums[k] == target:
+                    return [i, k]
+                j += 1
+                k -= 1
+            i += 1
+
+        return [0, 0]
+
 
 if __name__ == "__main__":
     t = TwoSum()
     print(t.twoSum([3, 3], 6))
+    print(t.advTwoSum([2, 7, 11, 15], 18))
