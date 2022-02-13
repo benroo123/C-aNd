@@ -8,17 +8,19 @@
 #         pass
 
 class TwoSum:
+    # solution one
+    # simply uses the 2d for loop
     def twoSum(self, nums, target):
-        result = [0, 0]
         for i in range(len(nums) - 1):
             for j in range(i + 1, len(nums)):
                 # print(i, j)
                 if nums[i] + nums[j] == target:
-                    result[0], result[-1] = i, j
-                    break
+                    return [i, j]
 
-        return result
+        return [0, 0]
 
+    # an advanced version
+    # uses loop unrolling
     def advTwoSum(self, nums, target):
         # length = len(nums) // 2 + 1
         i = 0
