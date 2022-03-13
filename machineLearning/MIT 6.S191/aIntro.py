@@ -18,6 +18,7 @@ def train(ne: Neuron, lr, epoch, data, label):
     for e in epoch:
         for x, y in zip(data, label):
             pred = np.matmul(x, ne.w) + ne.b
+            # The purpose of activation function is to introduce non-linearities into the network
             pred = tf.math.sigmoid(pred)
             # pred = tf.math.tanh(pred)
             # pred = tf.nn.relu(pred)
@@ -80,4 +81,38 @@ class SimpleFeedbackLearning:
 
         return pred
 
-if __name__ == "__main__":
+
+# simple dense layer with tensorflow
+class MyDenseLayer(tf.keras.layers.Layer):
+    def __init__(self, in_d, out_d):
+        super(MyDenseLayer, self).__init__()
+        self.w = self.add_weight([in_d, out_d])
+        self.b = self.add_weithgt([1, out_d])
+
+    def call(self, inputs):
+        z = tf.matmul(inputs, self.w) + self.b
+        output = tf.math.sigmoid(z)
+        return output
+
+# loss function:
+
+# gradient descent
+# Initiate random weight
+# Loop until converge:
+#    compute gradient
+#    update weight
+# Return weight
+
+
+def compute_loss(w):
+    return loss
+
+lr = 0.01
+weights = tf.Variable([tf.random.normal()])
+
+while True:
+    with tf.GradientTape as g:
+        loss = compute_loss(weights)
+        gradient = g.gradient(loss, weights)
+
+    weights = weights - lr * gradient
