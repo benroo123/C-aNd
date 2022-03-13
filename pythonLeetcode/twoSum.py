@@ -24,10 +24,10 @@ class TwoSum:
     def advTwoSum(self, nums, target):
         # length = len(nums) // 2 + 1
         i = 0
-        while i <= len(nums) - 1:
+        while i < len(nums):
             j = i + 1
             k = len(nums) - 1
-            while j <= len(nums) - 1:  # in each iteration, compare the number of i + j and i + k at the same time
+            while j < len(nums)/2 + 1:  # in each iteration, compare the number of i + j and i + k at the same time
                 print(i, j, k)
                 if nums[i] + nums[j] == target:
                     return [i, j]
@@ -43,4 +43,4 @@ class TwoSum:
 if __name__ == "__main__":
     t = TwoSum()
     # print(t.twoSum([3, 3], 6))
-    print(t.advTwoSum([2, 7, 11, 15], 18))
+    print(t.advTwoSum([2, 7, 11, 15], 0))
