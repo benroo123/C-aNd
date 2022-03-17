@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc7546df-74fd-4906-a657-7185ab30a192" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/MIT 6.S191/aIntro.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/MIT 6.S191/aIntro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Users/Administrator/Desktop/FINAL PROJECT/UC" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.aIntro">
@@ -147,7 +146,7 @@
       <workItem from="1646378223974" duration="593000" />
       <workItem from="1646425363588" duration="864000" />
       <workItem from="1647137531801" duration="1966000" />
-      <workItem from="1647185345873" duration="4648000" />
+      <workItem from="1647185345873" duration="7338000" />
     </task>
     <servers />
   </component>
