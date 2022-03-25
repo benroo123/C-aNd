@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc7546df-74fd-4906-a657-7185ab30a192" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pythonLeetcode/mdianOfTwoSortedArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonLeetcode/addTwoNums.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonLeetcode/addTwoNums.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.addTwoNums">
+  <component name="RunManager" selected="Python.mdianOfTwoSortedArray">
     <configuration name="aIntro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aNd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +71,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonLeetcode/addTwoNums.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mdianOfTwoSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aNd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonLeetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonLeetcode/mdianOfTwoSortedArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mdianOfTwoSortedArray" />
         <item itemvalue="Python.addTwoNums" />
         <item itemvalue="Python.aIntro" />
         <item itemvalue="Python.twoSum" />
@@ -149,7 +172,7 @@
       <workItem from="1647137531801" duration="1966000" />
       <workItem from="1647185345873" duration="7338000" />
       <workItem from="1648180969719" duration="636000" />
-      <workItem from="1648181809826" duration="2431000" />
+      <workItem from="1648181809826" duration="8246000" />
     </task>
     <servers />
   </component>
@@ -158,6 +181,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/aNd$addTwoNums.coverage" NAME="addTwoNums Coverage Results" MODIFIED="1648194048783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonLeetcode" />
+    <SUITE FILE_PATH="coverage/aNd$mdianOfTwoSortedArray.coverage" NAME="mdianOfTwoSortedArray Coverage Results" MODIFIED="1648201416436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonLeetcode" />
     <SUITE FILE_PATH="coverage/aNd$aIntro.coverage" NAME="aIntro Coverage Results" MODIFIED="1647185958059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning/MIT 6.S191" />
     <SUITE FILE_PATH="coverage/aNd$test.coverage" NAME="test Coverage Results" MODIFIED="1644738518569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aNd$twoSum.coverage" NAME="twoSum Coverage Results" MODIFIED="1646278999532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonLeetcode" />

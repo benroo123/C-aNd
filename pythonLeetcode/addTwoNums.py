@@ -81,15 +81,14 @@ class Solution:
                 empty = ListNode()
                 if l1.next is not None and l2.next is not None:
                     print("c1")
-                    current.next = Solution.addTwoNumbers(self, l1.next, l2.next, carry)
+                    current.next = Solution.Solution(self, l1.next, l2.next, carry)
                 elif l1.next is not None and l2.next is None:
                     print("c2")
-                    current.next = Solution.addTwoNumbers(self, l1.next, empty, carry)
+                    current.next = Solution.Solution(self, l1.next, empty, carry)
                 elif l2.next is not None and l1.next is None:
                     print("c3")
-                    current.next = Solution.addTwoNumbers(self, empty, l2.next, carry)
+                    current.next = Solution.Solution(self, empty, l2.next, carry)
                 return current
-
 
 
 if __name__ == "__main__":
