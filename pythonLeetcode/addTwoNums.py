@@ -18,7 +18,7 @@ class ListNode:
 #     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 
 
-class AddTwoNums:
+class Solution:
     def rec(self, listA, listB, car=0):
         """
         :param listA:
@@ -58,31 +58,38 @@ class AddTwoNums:
     # a is not none, b is none
     # a is not none, b is not none
     # Cannot just list four scenarios because the item after next one could be a lot. NOR JUST ONE
-    @staticmethod
-    def trans(linked: ListNode):
-        result = []
-        while linked.next is not None:
-            print(linked.val)
-            result.append(linked.val)
-            linked = linked.next
-        return result
+    class Solution:
+        def addTwoNumbers(self, l1: ListNode, l2: ListNode, car=0) -> ListNode:
+            current = ListNode()
 
-    def addTwoNumbers(self, listA: ListNode, listB: ListNode) -> ListNode:
-        car = 0
-        result = ListNode
-        while listA.next is not None or car == 1:
-            result1 = ListNode
-            # result2 = ListNode
-            car = 0
-            add = listA.val + listB.val + car
-            if add >= 10:
-                car = 1
-                add -= 10
-            result1.val = add
-            # result1.nextI = result2
-            result.next = result1
+            carry = 0
+            sum = l1.val + l2.val + car
+            if sum >= 10:
+                carry = 1
+                current.val = sum - 10
+            else:
+                current.val = sum
 
-        return result.next
+            if l1.next is None and l2.next is None and carry == 0:
+                return current
+            elif l1.next is None and l2.next is None and carry == 1:
+                next = ListNode(1)
+                current.next = next
+                return current
+            else:
+                print(l1.val, l2.val, current.val)
+                empty = ListNode()
+                if l1.next is not None and l2.next is not None:
+                    print("c1")
+                    current.next = Solution.addTwoNumbers(self, l1.next, l2.next, carry)
+                elif l1.next is not None and l2.next is None:
+                    print("c2")
+                    current.next = Solution.addTwoNumbers(self, l1.next, empty, carry)
+                elif l2.next is not None and l1.next is None:
+                    print("c3")
+                    current.next = Solution.addTwoNumbers(self, empty, l2.next, carry)
+                return current
+
 
 
 if __name__ == "__main__":
@@ -95,4 +102,4 @@ if __name__ == "__main__":
     e = ListNode(4, f)
 
     atn = AddTwoNums()
-    atn.rec(e, a)
+    atn.addTwoNumbers(e, a)
