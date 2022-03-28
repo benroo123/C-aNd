@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc7546df-74fd-4906-a657-7185ab30a192" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machineLearning/customDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,9 @@
       <workItem from="1647137531801" duration="1966000" />
       <workItem from="1647185345873" duration="7338000" />
       <workItem from="1648180969719" duration="636000" />
-      <workItem from="1648181809826" duration="8984000" />
+      <workItem from="1648181809826" duration="9605000" />
+      <workItem from="1648246136158" duration="732000" />
+      <workItem from="1648418372393" duration="628000" />
     </task>
     <servers />
   </component>
