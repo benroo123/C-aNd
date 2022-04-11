@@ -1,6 +1,4 @@
-<head> 
-  <h1> Algorithm and Dataset </h1>
-</head>
+# Algorithm and Machine Learning
 
 <h3> -Python Leetcode </h3>
 <h3> -Machine Learning</h3>
