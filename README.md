@@ -2,7 +2,7 @@
 
 ## Python Leetcode 
 ## Machine Learning
-<h5> ·MIT 6.S191</h5>
+·MIT 6.S191
 ## C algorithm & data structure 
 ## SQL Leetcode
 
